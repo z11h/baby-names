@@ -1,2 +1,2 @@
-# -baby-baby-names
+# baby-names
 :baby: get popular baby names!
