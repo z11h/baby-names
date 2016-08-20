@@ -12,7 +12,7 @@ $ npm install --save baby-names
 ```javascript
 const babyNames = require('baby-names');
 
-babyNames.all
+babyNames.all()
 // returns array of names
 
 babyNames.random();
