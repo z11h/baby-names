@@ -1,6 +1,6 @@
 {
   "name": "baby-names",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get popular baby names!",
   "main": "index.js",
   "scripts": {
