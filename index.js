@@ -4,13 +4,15 @@ let uniqueRandomArray = require('unique-random-array');
 let babyNames = require('./baby-names.json');
 
 module.exports = {
-  all: babyNames,
+  all: all,
   random: singleRandom,
   randomAmount: randomAmount,
   startsWith: startsWith
 };
 
-const singleRandom = () => uniqueRandomArray(babyNames);
+const all = () => babyNames
+
+const singleRandom = () => uniqueRandomArray(babyNames)
 
 function randomAmount(number) {
   if (typeof number === "number") {
@@ -27,3 +29,5 @@ function startsWith(letter) {
     return `Error parsing ${letter}!`;
   }
 };
+
+// @todo: make `random` function be same for single and multiple function

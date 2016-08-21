@@ -17,6 +17,10 @@ babyNames.all
 
 babyNames.random();
 // returns 'Ava'
+
+.randomAmount(amount)
+
+.startsWith(letters)
 ```
 
 ## API
@@ -33,6 +37,19 @@ Type: `<Function>`
 
 Returns a random baby name.
 
+### .randomAmount(amount)
+
+Type: `<Function>`
+
+Returns an array of corresponding amount of random baby names.
+
+### .startsWith(letters)
+
+Type: `<Function>`
+
+Returns an array of baby-names that start with those letters.
+
 ## Related
 * [baby-names-cli](#)
 * [harrypotter-names](#)
+* [harrypotter-spells](#)
