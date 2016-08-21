@@ -15,18 +15,25 @@ const all = () => babyNames
 const singleRandom = () => uniqueRandomArray(babyNames)
 
 function randomAmount(number) {
-  if (typeof number === "number") {
-    // @todo
+  if (typeof number === "number" && (number > 0)) {
+    const list = [];
+
+    for (let i = 0; i <= number; i++) {
+      list.push(uniqueRandomArray(babyNames))
+    };
+
+    return list;
   } else {
     return `Error parsing ${number}!`;
   }
 };
 
-function startsWith(letter) {
-  if ((letter.length >= 1) && (typeof letter === "string")) {
-    // @todo
+function startsWith(l) {
+  if ((l.length >= 1) && (typeof l === "string")) {
+    l = l.toLowerCase().trim();
+    //@todo
   } else {
-    return `Error parsing ${letter}!`;
+    return `Error parsing ${l}!`;
   }
 };
 

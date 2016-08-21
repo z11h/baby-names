@@ -18,9 +18,12 @@ babyNames.all()
 babyNames.random();
 // returns 'Ava'
 
-.randomAmount(amount)
+babyNames.randomAmount(2)
+// returns ['Ethan', 'Emma']
 
-.startsWith(letters)
+babyNames.startsWith('Ja')
+//
+
 ```
 
 ## API
