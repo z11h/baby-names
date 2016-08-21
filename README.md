@@ -1,4 +1,4 @@
-# baby-names
+# baby-names [![Build Status](https://travis-ci.org/ZakariaRidouh/baby-names.svg?branch=master)](https://travis-ci.org/ZakariaRidouh/baby-names)
 :baby: get popular baby names!
 
 ## Install
