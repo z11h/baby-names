@@ -1,32 +1,34 @@
-# baby-names [![Build Status](https://travis-ci.org/ZakariaRidouh/baby-names.svg?branch=master)](https://travis-ci.org/ZakariaRidouh/baby-names)
+# baby-names 
+[![Build Status](https://travis-ci.org/ZakariaRidouh/baby-names.svg?branch=master)](https://travis-ci.org/ZakariaRidouh/baby-names)
+
 :baby: get popular baby names!
 
-## Install
+## install
 
 ```
 $ npm install --save baby-names
 ```
 
-## Usage
+## usage
 
 ```javascript
 const babyNames = require('baby-names');
 
 babyNames.all()
-// returns array of names
+//=> ['array', 'of', 'all', 'names']
 
 babyNames.random();
-// returns 'Ava'
+//=> 'Ava'
 
 babyNames.randomAmount(2)
-// returns ['Ethan', 'Emma']
+//=> ['Ethan', 'Emma']
 
 babyNames.startsWith('Ja')
-//
+//=> 'Jack'
 
 ```
 
-## API
+## api
 
 ### .all
 
@@ -52,7 +54,7 @@ Type: `<Function>`
 
 Returns an array of baby-names that start with those letters.
 
-## Related
+## related projects
 * [baby-names-cli](#)
 * [harrypotter-names](#)
 * [harrypotter-spells](#)
